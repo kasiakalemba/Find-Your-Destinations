@@ -2,10 +2,19 @@
 
 Heroku URL: [https://findyourdestinations.herokuapp.com/](https://findyourdestinations.herokuapp.com/)
 
+## Table of contents
+* [Summary](#summary)
+* [Contributors](#Contributors)
+* [Motivation](#motivation)
+* [Sources](#sources)
+* [Workflow](#workflow)
+* [Usage](#usage)
+
+
 ## Summary
 We have created a map with an interactive dashboard for anyone looking to decide which state to travel to. Our webpage provides you a choropleth on the most popular states to travel to based on a equation created by our group. By clicking on each state, you can find information on various attractions offered, average flight costs and the value of your money there. Explore the map to find your ideal destination right at your footsteps!
 
-## Group Members
+## Contributors
 * Solito Reyes
 * Kasia Kalemba
 * Shrilekha Vijayakanthan
@@ -70,16 +79,16 @@ This app was created during the Covid pandemic, when Americans were not allowed 
 * wincertstore==0.2
 * psycopg2==2.8.4
 
-## Steps to run the application
+## Usage 
 **Option 1**
 1. View the page at our URL: [https://findyourdestinations.herokuapp.com/](https://findyourdestinations.herokuapp.com/)
-<!-- end of list -->
+
 **Option 2**
 1. Save all of the files of the repository to a local folder on your computer.
-1. Open PgAdmin and create a new database called "ustravelapp_db"
-1. In the query editor, run the text in the file db_script.txt, which is in the data folder
-1. Open Jupyter Notebook and run all the cells of the file ustravelapp.ipynb
-1. In your PgAdmin editor, run the text in the file db_script2.txt, which is in the data folder
-1. Open your terminal and cd into the folder you saved all the files in.
-1. Run the command "python app.py"
-1. In your brower, go to your local host (usually http://localhost:5000/)
+2. Open PgAdmin and create a new database called "ustravelapp_db"
+3. In the query editor, run the text in the file db_script.txt, which is in the data folder
+4. Open Jupyter Notebook and run all the cells of the file ustravelapp.ipynb
+5. In your PgAdmin editor, run the text in the file db_script2.txt, which is in the data folder
+6. Open your terminal and cd into the folder you saved all the files in.
+7. Run the command "python app.py"
+7. In your brower, go to your local host (usually http://localhost:5000/)
