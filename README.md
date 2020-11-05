@@ -64,6 +64,7 @@ This app was created during the Covid pandemic, when Americans were not allowed 
   * Mapbox
   * Leaflet
   * d3
+  * FrappeCharts
 
 ## System Requirements
 * certifi==2020.6.20
